@@ -84,6 +84,6 @@ st.caption(f"*Based on an average annual rate of {avg_returns[selected_index]:.2
 st.markdown("""
 ---
 <p style='text-align: center; color: gray;'>
-    Made with ❤️ by Ramu
+    Made by Ramu🧑🏻‍💻
 </p>
 """, unsafe_allow_html=True)
