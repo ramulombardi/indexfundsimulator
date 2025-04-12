@@ -79,3 +79,11 @@ final_amount = initial_amount * (1 + rate) ** years
 # Resultado
 st.markdown(f"### 💰Estimated final amount **USD ${final_amount:,.2f}**")
 st.caption(f"*Based on an average annual rate of {avg_returns[selected_index]:.2f}% {selected_index}*")
+
+
+st.markdown("""
+---
+<p style='text-align: center; color: gray;'>
+    Made with ❤️ by Ramu
+</p>
+""", unsafe_allow_html=True)
